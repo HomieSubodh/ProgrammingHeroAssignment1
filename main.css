@@ -1,5 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&family=Barlow:wght@200;500&family=Chakra+Petch:wght@600&family=Fredoka+One&family=Gugi&family=Lobster+Two:ital@0;1&family=Manrope&family=Poppins:wght@300;500&family=Space+Grotesk:wght@300;400;500&family=Staatliches&family=Yeseva+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
+
+
+.first_section {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin-top: 3em;
+}
+
+.first_section .div_one {
+    margin-left: 3%;
+}
+
+.half_width {
+    width: 50%;
+}
+
+.first_section .div_one .header_part{
+    font-family: 'Yeseva One', cursive;
+    font-size: 35px;
+    border-left: 5px solid #FF5959;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 1em;
+}
+
+.first_section .div_one h1:nth-child(2) {
+    color: #FFAD5A;
+}
+
+.first_section button {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #FF5959;
+    border: none;
+    height: 48px;
+    width: 172px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.first_section .div_two {
+    margin-top: -5.5%;
+    margin-left: 15%;
+}
+
+.first_section .div_two img {
+    height: 600px;
+}
+
+
+.second_section {
+    margin-left: 3%;
+}
+
+.second_section h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+.second_section h1 span {
+    color: #FFAD5A;
+}
+
+.second_section .card_div {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding-left: 15%;
+}
+
+.second_section .card {
+    height: 376px;
+    width: 360px;
+    border-radius: 6%;
+    -webkit-border-radius: 6%;
+    -moz-border-radius: 6%;
+    -ms-border-radius: 6%;
+    -o-border-radius: 6%;
+    padding: 1.5%;
+    margin-right: 2%;
+}
+
+.second_section .card img {
+    height: 126px;
+    width: 126px;
+}
+
+
+.second_section .card1 {
+    background-color: #EEF6F7;
+}
+
+.second_section .card2 {
+    background-color: #FFEFEF;
+}
+
+.second_section .card3 {
+    background-color: #FFF4D6;
+}
