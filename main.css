@@ -10,6 +10,21 @@
     color: white;
 }
 
+body::-webkit-scrollbar {
+    height: 20px;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #0E141A;
+    box-shadow: inset 10px 10px 10px 10px black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#FFAD5A, #FF5959);
+}
+
+
 span::selection {
     color: lightgreen;
 }
@@ -228,7 +243,7 @@ hr {
     margin-top: 12%;
     border-radius: 20px;
     background-color: rgba(240, 241, 241, 0.75);
-    box-shadow: 12px 8px 9px 3px rgb(250 253 243 / 91%);
+    box-shadow: 12px 8px 9px 3px rgba(233, 172, 93, 0.678);
 }
 
 .form h1 {
