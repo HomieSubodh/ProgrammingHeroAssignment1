@@ -84,7 +84,6 @@ button:hover {
     height: 400px;
 }
 
-
 .second_section {
     margin-left: 3%;
     background-image: url('images/shapes/shape2.png');
@@ -164,6 +163,9 @@ hr {
 
 .third_sec_div_two {
     margin-top: 3%;
+    background-image: url('images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .third_sec_div_two p {
@@ -174,11 +176,19 @@ hr {
 .fourth_section {
     display: flex;
     margin-top: 2%;
+    background-image: url('images/shapes/shape3.png');
+    background-size: 15%;
+    background-repeat: no-repeat;
+    background-position: top left;
 }
 
 .fourth_section .four_sec_div_one {
     font-family: 'Poppins', sans-serif;
     margin-left: 17.2%;
+}
+
+.four_sec_div_one h1 {
+    font-size: 35px;
 }
 
 .four_sec_div_two {
@@ -193,7 +203,6 @@ hr {
 .fifth_section {
     display: flex;
     margin-top: 2%;
-    /* border: 2px solid; */
 }
 
 .fifth_section h1{
@@ -211,6 +220,7 @@ hr {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
 .form {
     height: 65%;
     width: 50%;
@@ -223,6 +233,8 @@ hr {
 
 .form h1 {
     font-size: 25px;
+    background-color: inherit;
+    color: black;
 }
 
 
